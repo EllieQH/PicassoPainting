@@ -63,7 +63,6 @@ body {
     border: none;
     border-radius: 5px;
 }
-
 .purchase-form button {
     margin-top: 15px;
     padding: 10px 20px;
@@ -73,24 +72,21 @@ body {
     border-radius: 7px;
     cursor: pointer;
 }
-
 .purchase-form button:hover {
     background-color: #480554;
 }
-
 .input-label{
     text-align: center;
 font-weight: bold;
 }
-
 .circle {
 width: 200px;
 height: 200px;
 border-radius:50% ;
-background-color: #ff9a9e;
+background-color: #d4a9aa;
 position: absolute;
-top: 250px;
-left:700px ;
+top: 450px;
+left:400px ;
 }
 
 .blue-circle {
@@ -100,6 +96,27 @@ left:700px ;
     border-radius:50% ;
     background-color: #4b73c4;
     position: absolute;
-    top: 195px;
-    left:550px ;  
+    top: 500px;
+    left:400px ;  
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #88826a;
+    position:fixed;
+    top: 200px;
+    left: 80px;
+    z-index: 6;
+}
+.trapezoid {
+    width: 120px;
+    height: 0;
+    border-bottom: 80px solid #a95656; /* Red color */
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    z-index: 5;
 }
